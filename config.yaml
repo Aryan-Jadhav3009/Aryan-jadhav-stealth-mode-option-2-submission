@@ -1,0 +1,9 @@
+
+model:
+  detector: "model.pt"
+thresholds:
+  detection_confidence: 0.5
+  reid_similarity: 0.85
+video:
+  input_path: "15sec_input_720p.mp4"
+  output_path: "data/output_video.avi"
