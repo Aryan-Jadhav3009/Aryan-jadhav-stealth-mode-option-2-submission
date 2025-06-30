@@ -28,6 +28,8 @@ player_reid_project/
    ```bash
    pip install -r requirements.txt
    ```
+3. Place the provided model **YOLOv11 model** (`model.pt`) in the project root.
+4. Ensure `config.yaml` paths point to your video and model.
 
 ## Usage
 
