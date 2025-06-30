@@ -42,19 +42,6 @@ This will:
 - Run detection → short-term track → long-term re-ID
 - Save annotated output video as `data/output_video.avi`
 
-## 📁 File Structure
-
-player_reid_project/
-├── 15sec_input_720p.mp4       # Sample input video
-├── model.pt                   # Trained ReID model
-├── config.yaml                # Tracker and model configuration
-├── detector.py                # YOLO-based detector
-├── reid_model.py              # Custom ReID architecture
-├── tracker.py                 # Tracker using cosine similarity
-├── utils.py                   # Helper functions
-├── main.py                    # Main tracking entry point
-├── requirements.txt           # Python dependencies
-└── README.md                  # This file
 
 ## 🧪 Tracking Logic
 
